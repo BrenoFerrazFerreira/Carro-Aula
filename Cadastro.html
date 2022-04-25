@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <script src="cadastroCarro.js"></script>
+    <style>
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="txtPlaca">Placa</label>
+            <input type="text" placeholder="Placa" required
+            id="txtPlaca" name="txtPlaca" />
+        </div>
+        <div>
+            <label for="txtAno">Ano</label>
+            <input type="number" placeholder="Ano" required
+            id="txtAno" name="txtAno" />
+        </div>
+        <div>
+            <label for="chkAtualizado">Ipva Pago</label>
+            <input type="checkbox" value="1"
+            id="chkAtualizado" name="chkAtualizado" />
+        </div>
+        <div>
+            <label for="txtipvaData">IPVA Data</label>
+            <input type="datetime" placeholder="IPVA Data"
+            id="txtipvaData" name="txtipvaData" />
+        </div>
+        <div>
+            <label for="txtipvaValor">IPVA Valor</label>
+            <input type="number" placeholder="IPVA Valor" required
+            id="txtipvaValor" name="txtipvaValor" />
+        </div>
+        <div>
+            <input type="submit" value="Cadastrar" />
+        </div>
+    </form>
+</body>
+</html>
